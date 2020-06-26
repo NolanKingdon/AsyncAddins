@@ -53,7 +53,8 @@ geotab.addin.sync = function () {
             elAddin.querySelector('#sync-user').textContent = session.userName;
           });
           
-          
+          let tar = getId('target');
+          console.log(target, 'From focus');
           elAddin.className = '';
       // show main content
       
