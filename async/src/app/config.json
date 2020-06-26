@@ -1,0 +1,19 @@
+{
+  "name": "async",
+  "supportEmail": "nolankingdon@geotab.com",
+  "version": "0.0.1",
+  "items": [{
+    "url": "async.html",
+    "path": "",
+    "menuName": {
+      "en": "async"
+    },
+    "icon": "images/icon.svg"
+  }],
+  "dev": {
+    "root": "async",
+    "dist": {
+      "host": ""
+    }
+  }
+}

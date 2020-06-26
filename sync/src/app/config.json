@@ -1,0 +1,19 @@
+{
+  "name": "sync",
+  "supportEmail": "nolankingdon@geotab.com",
+  "version": "0.0.1",
+  "items": [{
+    "url": "sync.html",
+    "path": "",
+    "menuName": {
+      "en": "sync"
+    },
+    "icon": "images/icon.svg"
+  }],
+  "dev": {
+    "root": "sync",
+    "dist": {
+      "host": ""
+    }
+  }
+}
