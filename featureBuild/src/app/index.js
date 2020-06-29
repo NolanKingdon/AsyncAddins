@@ -4,6 +4,8 @@
  * (css/images/js/etc)
  */
 
+const regeneratorRuntime = require('regenerator-runtime');
+
 if(!geotab.addin.featureBuild){
     
     require('./scripts/main');
