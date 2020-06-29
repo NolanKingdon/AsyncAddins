@@ -1,0 +1,19 @@
+{
+  "name": "featureBuild",
+  "supportEmail": "",
+  "version": "0.0.1",
+  "items": [{
+    "url": "featureBuild.html",
+    "path": "",
+    "menuName": {
+      "en": "featureBuild"
+    },
+    "icon": "images/icon.svg"
+  }],
+  "dev": {
+    "root": "featureBuild",
+    "dist": {
+      "host": "https://www.example.com/myaddin/"
+    }
+  }
+}
