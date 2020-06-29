@@ -1,6 +1,6 @@
 {
   "name": "featureBuild",
-  "supportEmail": "",
+  "supportEmail": "nolankingdon@geotab.com",
   "version": "0.0.1",
   "items": [{
     "url": "featureBuild.html",
@@ -13,7 +13,7 @@
   "dev": {
     "root": "featureBuild",
     "dist": {
-      "host": "https://www.example.com/myaddin/"
+      "host": ""
     }
   }
 }
