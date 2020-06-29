@@ -1,0 +1,19 @@
+{
+  "name": "feature",
+  "supportEmail": "",
+  "version": "0.0.1",
+  "items": [{
+    "url": "feature.html",
+    "path": "",
+    "menuName": {
+      "en": "feature"
+    },
+    "icon": "images/icon.svg"
+  }],
+  "dev": {
+    "root": "feature",
+    "dist": {
+      "host": "https://www.example.com/myaddin/"
+    }
+  }
+}
