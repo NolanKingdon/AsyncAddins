@@ -1,3 +1,5 @@
+const GeotabApi = require('./geotabAPI.js');
+
 /**
  * @returns {{initialize: Function, focus: Function, blur: Function}}
  */
@@ -39,14 +41,20 @@ geotab.addin.feature = function () {
      * @param {object} freshApi - The GeotabApi object for making calls to MyGeotab.
      * @param {object} freshState - The page state object allows access to URL, page navigation and global group filter.
      */
-    focus: function (freshApi, freshState) {
+    focus: async function (api, state) {
       
           // getting the current user to display in the UI
-          freshApi.getSession(session => {
+          api.getSession(session => {
             elAddin.querySelector('#feature-user').textContent = session.userName;
           });
           
+          let device = await GeotabApi.getDevice(api).catch(function(e) {
+            console.log(e);
+            console.log(':(');
+          });
           
+          console.log(device);
+
           elAddin.className = '';
       // show main content
       
